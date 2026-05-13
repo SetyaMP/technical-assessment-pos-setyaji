@@ -1,0 +1,16 @@
+{
+  "name": "technical-assessment-pos",
+  "version": "1.0.0",
+  "description": "POS Migration Technical Assessment",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^5.0.0",
+    "mysql2": "^3.0.0",
+    "nodemon": "^3.0.0"
+  }
+}
